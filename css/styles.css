@@ -1,0 +1,33 @@
+.profile-img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: auto 0 auto; }
+
+body {
+  display: block;
+  background-color: #D9DFED;
+  font-family: "Roboto";
+  width: 300px;
+  height: 560px; }
+  body .phone {
+    background-color: #F0F0F8;
+    border-radius: 30px;
+    border: 10px solid #ffffff;
+    padding: 10px 15px 0;
+    margin-right: auto;
+    margin-left: auto; }
+    body .phone nav.nav-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0 30px; }
+      body .phone nav.nav-container .page-title {
+        font-size: 0.6rem; }
+    body .phone section {
+      background-color: #F8F9FE;
+      border-radius: 2px; }
+    body .phone .fas {
+      font-family: "FontAwesome" !important;
+      color: #4889FA; }
+
+/*# sourceMappingURL=styles.css.map */
