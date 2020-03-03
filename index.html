@@ -20,13 +20,15 @@
             </nav>
         </header>
         <section class="map-section">
-            <img class="watch-icon" src="#" />
+            <div class="fas fa-history"></div>
             <div class="time-left">45 Minutes</div>
             <div class="meal-type">Thai Long</div>
             <div class="white-box map-widget">
-                <img class="map" src="#" />
-                <div class="adress">Finlandzka 10</div>
-                <div class="gray-font">01 922, Warsaw</div>
+                <iframe class="map" src="https://snazzymaps.com/embed/223675"></iframe>
+                <div class="adress">
+                    <div class="street">Finlandzka 10</div>
+                    <div class="city-code">01 922, Warsaw</div>
+                </div>
             </div>
         </section>
         <div class="space-between">
@@ -59,5 +61,8 @@
         <button class="submit-btn" type="button" name="button">Submit an Order</button>
     </div>
 </body>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQzWTiRI6M7srI7HQcFuTBTJ8IxcBrbuA&callback=initMap"
+    type="text/javascript"></script>
 
 </html>

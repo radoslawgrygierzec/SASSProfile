@@ -1,15 +1,84 @@
+.submit-btn {
+  background-color: #4889FA;
+  color: #ffffff;
+  margin: 20px 0;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  line-height: 0.25;
+  text-align: center;
+  font-size: 0.6rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  filter: blur(0.6px);
+  padding: 1rem 1rem;
+  font-size: "Roboto";
+  border-radius: 2px; }
+
 .profile-img {
   border-radius: 50%;
   width: 20px;
   height: 20px;
   margin: auto 0 auto; }
 
+nav.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 30px; }
+  nav.nav-container .page-title {
+    font-size: 0.6rem; }
+
+.map-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .map-section .fa-history {
+    font-family: "FontAwesome";
+    color: #ffffff;
+    background-color: #4889FA;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 20px 0 10px;
+    filter: blur(0.6px);
+    box-shadow: 2px 4px 16px #4889FA; }
+  .map-section .time-left {
+    color: #b1b2b9;
+    font-size: 0.5rem;
+    padding-bottom: 25px; }
+  .map-section .meal-type {
+    font-weight: 900;
+    filter: blur(0.3px); }
+  .map-section .white-box {
+    background-color: #ffffff;
+    margin: 15px;
+    width: 220px; }
+    .map-section .white-box .map {
+      width: 70px;
+      height: 50px;
+      border: none;
+      padding: 5px;
+      margin: 10px;
+      float: left; }
+    .map-section .white-box .adress {
+      padding: 20px 0;
+      float: left;
+      height: 40px; }
+      .map-section .white-box .adress .street {
+        font-weight: 900;
+        font-size: 0.8rem;
+        filter: blur(0.3px);
+        padding-top: 10px; }
+      .map-section .white-box .adress .city-code {
+        color: #b1b2b9;
+        font-size: 0.6rem; }
+
 body {
   display: block;
   background-color: #D9DFED;
   font-family: "Roboto";
   width: 300px;
-  height: 560px; }
+  height: 540px; }
   body .phone {
     background-color: #F0F0F8;
     border-radius: 30px;
@@ -17,16 +86,10 @@ body {
     padding: 10px 15px 0;
     margin-right: auto;
     margin-left: auto; }
-    body .phone nav.nav-container {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px 0 30px; }
-      body .phone nav.nav-container .page-title {
-        font-size: 0.6rem; }
     body .phone section {
       background-color: #F8F9FE;
       border-radius: 2px; }
-    body .phone .fas {
+    body .phone .fa-arrow-left {
       font-family: "FontAwesome" !important;
       color: #4889FA; }
 
