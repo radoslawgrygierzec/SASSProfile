@@ -1,3 +1,5 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
 .submit-btn {
   background-color: #4889FA;
   color: #ffffff;
@@ -13,84 +15,160 @@
   border: 1px solid transparent;
   filter: blur(0.6px);
   padding: 1rem 1rem;
-  font-size: "Roboto";
   border-radius: 2px; }
+
+.fa-arrow-left {
+  font-family: "FontAwesome";
+  color: #4889FA; }
 
 .profile-img {
   border-radius: 50%;
   width: 20px;
   height: 20px;
-  margin: auto 0 auto; }
+  margin: auto 0; }
 
 nav.nav-container {
   display: flex;
   justify-content: space-between;
   padding: 20px 0 30px; }
-  nav.nav-container .page-title {
-    font-size: 0.6rem; }
+
+.page-title {
+  font-weight: 900;
+  font-size: .8rem; }
 
 .map-section {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .map-section .fa-history {
-    font-family: "FontAwesome";
-    color: #ffffff;
-    background-color: #4889FA;
-    border-radius: 50%;
-    padding: 5px;
-    margin: 20px 0 10px;
-    filter: blur(0.6px);
-    box-shadow: 2px 4px 16px #4889FA; }
-  .map-section .time-left {
-    color: #b1b2b9;
-    font-size: 0.5rem;
-    padding-bottom: 25px; }
-  .map-section .meal-type {
-    font-weight: 900;
-    filter: blur(0.3px); }
-  .map-section .white-box {
-    background-color: #ffffff;
-    margin: 15px;
-    width: 220px; }
-    .map-section .white-box .map {
-      width: 70px;
-      height: 50px;
-      border: none;
-      padding: 5px;
-      margin: 10px;
-      float: left; }
-    .map-section .white-box .adress {
-      padding: 20px 0;
-      float: left;
-      height: 40px; }
-      .map-section .white-box .adress .street {
-        font-weight: 900;
-        font-size: 0.8rem;
-        filter: blur(0.3px);
-        padding-top: 10px; }
-      .map-section .white-box .adress .city-code {
-        color: #b1b2b9;
-        font-size: 0.6rem; }
+
+.fa-history {
+  font-family: "FontAwesome";
+  color: #ffffff;
+  background-color: #4889FA;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 20px 0 10px;
+  filter: blur(0.6px);
+  box-shadow: 2px 4px 16px #4889FA; }
+
+.time-left {
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #b1b2b9;
+  padding-bottom: 25px; }
+
+.meal-type {
+  font-weight: 900;
+  filter: blur(0.3px); }
+
+.white-box {
+  background-color: #ffffff;
+  margin: 15px;
+  width: 220px; }
+
+.map {
+  width: 70px;
+  height: 50px;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  float: left; }
+
+.adress {
+  padding: 20px 0;
+  float: left;
+  height: 40px; }
+
+.street {
+  font-weight: 900;
+  font-size: .8rem;
+  filter: blur(0.3px);
+  padding-top: 10px; }
+
+.city-code {
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #b1b2b9; }
+
+.space-between {
+  padding: 10px 0 5px;
+  margin: 0; }
+
+h4 {
+  font-weight: 900;
+  font-size: .8rem;
+  float: left;
+  margin: 0;
+  padding: 0 10px 0 0; }
+
+p {
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #b1b2b9;
+  margin: 4px; }
+
+.meal-boxes {
+  padding-top: 15px; }
+
+.white-box-order {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 0 15px 10px;
+  width: 190px; }
+
+.box {
+  background-color: #F0F0F8;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  float: left;
+  font-weight: 900;
+  font-size: .8rem; }
+
+.meal {
+  font-weight: 900;
+  font-size: .8rem; }
+
+.side-dish {
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #b1b2b9; }
+
+.price {
+  font-weight: 900;
+  font-size: .8rem;
+  color: #4889FA; }
+
+.order {
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #b1b2b9;
+  padding: 0 15px; }
+
+.left-side {
+  float: left;
+  padding-bottom: 5px; }
+
+.right-side {
+  text-align: right;
+  padding-bottom: 5px; }
 
 body {
-  display: block;
   background-color: #D9DFED;
   font-family: "Roboto";
-  width: 300px;
+  margin: auto; }
+
+.phone {
+  background-color: #F0F0F8;
+  border-radius: 30px;
+  border: 10px solid #ffffff;
+  padding: 10px 15px 0;
+  margin: auto;
+  width: 250px;
   height: 540px; }
-  body .phone {
-    background-color: #F0F0F8;
-    border-radius: 30px;
-    border: 10px solid #ffffff;
-    padding: 10px 15px 0;
-    margin-right: auto;
-    margin-left: auto; }
-    body .phone section {
-      background-color: #F8F9FE;
-      border-radius: 2px; }
-    body .phone .fa-arrow-left {
-      font-family: "FontAwesome" !important;
-      color: #4889FA; }
+
+section {
+  background-color: #F8F9FE;
+  border-radius: 2px; }
 
 /*# sourceMappingURL=styles.css.map */

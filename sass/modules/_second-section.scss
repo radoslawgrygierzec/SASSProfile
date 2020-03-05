@@ -1,0 +1,47 @@
+.meal-boxes {
+    padding-top: 15px;
+}
+
+.white-box-order {
+    background-color: $white;
+    padding: 15px;
+    margin: 0 15px 10px;
+    width: 190px;
+}
+
+.box {
+    background-color: $brand-third;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    float: left;
+    @include thin-black-font;
+}
+
+.meal {
+    @include thin-black-font;
+}
+
+.side-dish {
+    @include gray-font;
+}
+
+.price {
+    @include blue-font;
+}
+
+
+.order {
+    @include gray-font;
+    padding: 0 15px;
+}
+
+.left-side {
+    float: left;
+    padding-bottom: 5px;
+}
+
+.right-side {
+    text-align: right;
+    padding-bottom: 5px;
+}

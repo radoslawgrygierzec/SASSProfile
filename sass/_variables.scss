@@ -1,0 +1,42 @@
+// Global variables
+
+
+// Colors
+
+$brand-primary:     #4889FA;
+$brand-secondary:   #D9DFED;
+$brand-third:       #F0F0F8;
+$brand-light:       #F8F9FE;
+$white:             #ffffff;
+$gray-font:         #b1b2b9;
+
+// Fonts
+
+$font-family-base: 'Roboto';
+$font-awesome: 'FontAwesome';
+
+// Borders
+
+$border-radius:             2px;
+
+// Buttons
+
+$btn-padding-x:             1rem;
+$btn-padding-y:             1rem;
+$btn-line-height:           3.25;
+
+@mixin gray-font {
+    font-size: 0.5rem;
+    font-weight: 600;
+    color: $gray-font;
+}
+
+@mixin thin-black-font {
+    font-weight: 900;
+    font-size: .8rem;
+}
+
+@mixin blue-font {
+    @include thin-black-font;
+    color: $brand-primary;
+}

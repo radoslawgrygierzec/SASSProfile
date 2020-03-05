@@ -1,0 +1,21 @@
+.submit-btn {
+    background-color: $brand-primary;
+    color: $white;
+    margin: 20px 0;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 0.25;
+    text-align: center;
+    font-size: 0.6rem;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    filter: blur(0.6px);
+    padding: $btn-padding-y $btn-padding-x;
+    border-radius: $border-radius;
+}
+.fa-arrow-left {
+    font-family: $font-awesome;
+    color: $brand-primary;
+}

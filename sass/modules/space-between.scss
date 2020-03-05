@@ -1,0 +1,16 @@
+.space-between {
+    padding: 10px 0 5px;
+    margin: 0;
+}
+
+h4 {
+    @include thin-black-font;
+    float: left;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+
+p {
+    @include gray-font;
+    margin: 4px;
+}
