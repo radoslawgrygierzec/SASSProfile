@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" />
     <title>SCSS Profile</title>
 </head>
+
 <body>
-    TO DO 2 
+    <div class="phone">
+        <header class="nav-header">
+            <nav class="nav-container">
+                <div class="fas fa-arrow-left"></div>
+                <div class="page-title"><b>Shopping Cart</b></div>
+                <img class="profile-img" src="assets/profile-picture.png" />
+            </nav>
+        </header>
+        <section class="map-section">
+            <div class="fas fa-history"></div>
+            <div class="time-left">45 Minutes</div>
+            <div class="meal-type">Thai Long</div>
+            <div class="white-box map-widget">
+                <iframe class="map" src="https://snazzymaps.com/embed/223675"></iframe>
+                <div class="adress">
+                    <div class="street">Finlandzka 10</div>
+                    <div class="city-code">01 922, Warsaw</div>
+                </div>
+            </div>
+        </section>
+        <div class="space-between">
+            <h4>Order</h4>
+            <p class="gray-font">2 Dishes</p>
+        </div>
+        <section class="order-section">
+            <div class="order-container">
+                <div class="meal-boxes">
+                    <div class="white-box-order">
+                        <div class="box">1.</div>
+                        <div class="meal">Tom Thai Kaeng</div>
+                        <div class="price">$12.90</div>
+                        <div class="side-dish">With salads</div>
+                    </div>
+                    <div class="white-box-order">
+                        <div class="box">2.</div>
+                        <div class="meal">Ga Bo Thai Cay</div>
+                        <div class="price">$13.90</div>
+                    </div>
+                </div>
+                <div class="order">
+                    <div class="left-side">Order</div>
+                    <div class="right-side">$26,90</div>
+                    <div class="left-side">Delivery</div>
+                    <div class="right-side">$4,00</div>
+                </div>
+                <div class="summary">
+                    <div class="left-side">Summary</div>
+                    <div class="right-side">$30,90</div>
+                </div>
+                <div class="card-section">
+                    <img class="visa" src="assets/visa-logo.png" />
+                    <div class="card-number">**** 8266</div>
+                    <div class="change">Change</div>
+                </div>
+            </div>
+        </section>
+        <button class="submit-btn" type="button" name="button">Submit an Order</button>
+    </div>
 </body>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQzWTiRI6M7srI7HQcFuTBTJ8IxcBrbuA&callback=initMap"
+    type="text/javascript"></script>
 </html>

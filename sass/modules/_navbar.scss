@@ -1,0 +1,8 @@
+nav.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 30px;
+}
+    .page-title {
+        @include thin-black-font;
+    }
